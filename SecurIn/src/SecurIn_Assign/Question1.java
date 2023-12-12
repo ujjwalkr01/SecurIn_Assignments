@@ -124,6 +124,7 @@ public class Question1 {
 		System.out.println("Probability of the possible combination sum from 2");
 
 		for (int i = 2; i <= sum; i++) {
+			//for finding the number of observations or count
 			int count = findCountOfPossibleSumInMatrix(arr, i);
 
 			System.out.printf("Sum=%d. DieA=DieB=%d\t", i, count);
@@ -132,7 +133,14 @@ public class Question1 {
 		}
 	}
 
+	//function for finding the number of observations
 	private static int findCountOfPossibleSumInMatrix(int[][] arr, int ele) {
+		
+		/*
+		 * Iterating in a matrix to find the element number of observation.
+		 * Each time the element will be found then count will get incremented and
+		 * at end it will return the number of observation(count) of element.
+		 * */
 
 		int cnt = 0;
 
