@@ -36,9 +36,7 @@ public class QuestionB {
 
 		// As per given problem statement Dice_A should not have more than 4
 		// spots.Therefore I have created the new_DieA array of same length as
-		// Die_A and running the loop for ensuring that it must not containing more than
-		// 4 spots.
-
+		// Die_A and running the loop for ensuring that it must not containing more than 4 spots.
 		int new_DieA[] = new int[n];
 
 		for (int i = 0; i < new_DieA.length; i++) {
@@ -49,8 +47,7 @@ public class QuestionB {
 //			System.out.print(new_DieA[i] + " ");
 //		}
 
-		// Now finding the difference between the sum of the spots of new_DieA and
-		// Die_A.
+		// Now finding the difference between the sum of the spots of new_DieA and Die_A.
 		int sum_DieA = 0, sum_new_DieA = 0;
 
 		for (int ele : Die_A) {
