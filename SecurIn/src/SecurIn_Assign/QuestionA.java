@@ -1,6 +1,6 @@
 package SecurIn_Assign;
 
-public class Question1 {
+public class QuestionA {
 
 	public static void main(String[] args) {
 
