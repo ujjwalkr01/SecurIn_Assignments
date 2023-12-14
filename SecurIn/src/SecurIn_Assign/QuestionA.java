@@ -20,7 +20,7 @@ public class QuestionA {
 
 		partA2_CalculatingCombinationOfPairs(dieA, n, dieB, m);
 
-		System.out.println("-------------partA-1 ends------------------");
+		System.out.println("-------------partA-2 ends------------------");
 
 		// part-A-->3 Finding the probability of all the Possible Sums occurring among
 		// the number of combinations from (2).
@@ -41,8 +41,10 @@ public class QuestionA {
 		 */
 
 		int combination = 0;
-
-		for (int i = 0; i < n; i++) {
+		
+         System.out.println("All the possible pairs are:");
+		
+         for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
 				// printing the pairs
 				// hence for 1 face it will be printing all the 6 possible face of the dice b
